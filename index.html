@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Fusion</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <div class="bg-color">
+        <img src="" class="coding-bg">
+
+        </head>
+
+    </div>
+    <header>
+        <div class="logo-container">
+            <img src="d:\project1\logo1.jpg" alt="CodeFusion Logo" class="logo">
+        </div class="header">
+        <h1>Code Fusion</h1>
+
+    </header>
+    <main>
+        <div class="container">
+            <div class="editor-container">
+                <div class="tabs">
+                    <button class="html-tab active" id="html-tab">HTML</button>
+                    <button class="css-tab" id="css-tab">CSS</button>
+                    <button class="js-tab" id="js-tab">JS</button>
+                </div>
+                <div class="editors">
+                    <textarea id="html-editor" placeholder="HTML" style="background-color: #000; color: #fff;"></textarea>
+                    <textarea id="css-editor" placeholder="CSS" style="background-color: #0a0909; color: #fff; display:none;"></textarea>
+                    <textarea id="js-editor" placeholder="JavaScript" style="background-color: #000; color: #fff; display:none;"></textarea>
+                </div>
+            </div>
+            <div class="preview-container">
+                <blockquote>
+                    <h2>Output</h2>
+                </blockquote>
+                <iframe id="preview-frame" style="background-color: #efeee7;"></iframe>
+            </div>
+        </div>
+        <div class="controls">
+            <button id="run-btn">Run</button>
+            <button id="save-btn">Save</button>
+            <button id="reset-btn">Reset</button>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 CodeFusion</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
